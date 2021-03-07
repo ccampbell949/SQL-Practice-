@@ -1,0 +1,7 @@
+#Update specified records in specified column with new information
+
+UPDATE Customers
+SET ContactName='Jimmy'
+WHERE Country='Mexico' AND 'Ireland';
+
+#This can be used for any of the column headers to update for e.g. a customers name (marriage) or email address.
