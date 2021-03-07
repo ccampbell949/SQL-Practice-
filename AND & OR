@@ -1,0 +1,12 @@
+#This code will return customers from either Ireland or Germany whose names begin with 'P'.
+
+SELECT * FROM Customers
+WHERE (ContactName Like'P%')
+AND (Country='Ireland' OR Country='Germany');
+
+This placeholder '%' can be changed to look for different records
+e.g. '%P' would look for names ending with the letter P
+      '_r%'	Finds any values that have "r" in the second position
+       '%or%'	Finds any values that have "or" in any position
+       
+       There are more examples found online
