@@ -1,0 +1,1 @@
+Insert into Customers (CustomerName) Values ('Big Als BBQ');  #Adds CustomerName Big Als BBQ to Customers Database
