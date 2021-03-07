@@ -1,0 +1,6 @@
+#This code will give you the total sum, the average price and the total number of records within the column 'Price'
+
+SELECT SUM(price), AVG (Price), COUNT(price) from Products;   
+
+#Written as Select SUM(<Column Name>), Avg(<Column Name>), Count(<Column Name>) from <Table Name>
+#Note that statements don't NEED to be in upper case, but it can make reading the code easier
