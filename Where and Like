@@ -1,0 +1,3 @@
+#This code will slect any records which have an Order ID beginning with '1025' in the OrderDetails table.
+
+SELECT * from OrderDetails where OrderID like'1025%';
