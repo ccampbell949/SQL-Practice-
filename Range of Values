@@ -1,0 +1,4 @@
+# This code will return a list of items from a colume within the specified range
+
+SELECT Price FROM Products
+WHERE Price Between 5 AND 10;
